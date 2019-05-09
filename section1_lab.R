@@ -1,49 +1,38 @@
-# This first lab is about reading data from files and summarizing and combining the records
-# this is very common and important step; but somewhat tricky to learn. Good luck!
 
-# Before doing this exercise, you should have worked through 
- 
-# There is a file "Operating-Health-Facilities-with-location-2014.csv" under "data"
-# read the data in the file into a data.frame and answer all the questions
-# by using R code only
-
-# replace the ___________ with the appropriate code 
-
-setwd("data")
-# 1. read the data into a data.frame
-d <- read.csv("", stringsAsFactors=FALSE)
-
-# 2. how many rows and columns are there?
+# R Training Lab 1
 
 
-# 3. what are the variable names?
+# 1. load "data.wheat.uniformity" dataset from agridat library
 
-# 4. What is the number of facilities for each zone?
+# 2. write it out in csv
 
+# 3. read it in from the csv file and assign variable name "d" to it.
 
-# 5. Which block has most facilities (and how many), and which has least (and how many)?
+# 4. how many rows and columns are there?
 
+# 5. what are the variable names?
 
+# 6. show the first five lines of the data.frame d
 
-# 6. What is the average altitude of all clinics?
+# 7. Is there any missing data in each column?
 
+# 8. Which row and col has missing data?
 
+# 9. Delete rows with missing data
 
+# 10. What is the number of measurements for each column?
 
-# 7. Create a data.frame with three columns: ZONE, the number of facilities, and their average altitude (by zone)
-# provide appropriate column names: 'num', 'altitude'
-# sorted in the ascending order by the number of facilities
-# altitude should be rounded to the nearest 10 m
- 
+# 11 a.What is the average grain measurements?
+#    b. What is the average grain measurements for each column?
+  
 
- 
-
-# show the first five lines of the data.frame
+# 12. Create a data.frame with four columns: col, row, average grain and average straw
+# sorted in the ascending order by col, and row
+# grain measurements should be rounded to be the integer
 
 
 
-#Save "a" in a file on your disk (comma separated by values format)
-write._________(_________, _________, row.names=FALSE)
+
 
 
 
